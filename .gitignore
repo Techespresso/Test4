@@ -1,0 +1,71 @@
+# ==========================================
+# Salesforce / SFDX Project
+# ==========================================
+
+# Dependencies
+node_modules/
+.npm/
+
+# Salesforce CLI
+.sf/
+.sfdx/
+.localdevserver/
+
+# Local Salesforce settings
+.local/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# Test and coverage output
+coverage/
+.nyc_output/
+junit/
+test-results/
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Salesforce local authentication files
+# Never commit access tokens or private credentials
+
+# Package/build artifacts
+*.zip
+*.war
+*.jar
+
+# ==========================================
+# Copado / Salesforce Deployment Notes
+# ==========================================
+
+# Ignore local-only files; do not ignore
+# Salesforce metadata required for deployment.
